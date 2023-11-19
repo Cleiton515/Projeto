@@ -1,0 +1,21 @@
+@keyframes move {
+    from{
+        transform: translate(0, 0);
+    
+    }
+
+    to{
+        transform: translate(-2em, -3em);
+       
+    }
+}
+
+
+@keyframes roda {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(900deg);
+    }
+}
